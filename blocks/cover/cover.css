@@ -1,0 +1,7 @@
+.cover {
+  border: red 1px solid;
+  margin: 92px 48px 0;
+  background: url(../../images/__background.jpg);
+  width: 1184px;
+  height: 740px;
+}

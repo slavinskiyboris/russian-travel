@@ -1,4 +1,6 @@
 .lead {
   border: 1px red solid;
-  margin-bottom: 92px;
+  margin: 0 148px 92px;
+  width: 984px;
+  height: 1005px;
 }
