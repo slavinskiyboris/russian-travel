@@ -7,4 +7,6 @@
   line-height: 16px;
   width: 186px;
   height: 16px;
+  align-self: end;
+  justify-self: end;
 }
