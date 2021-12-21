@@ -1,10 +1,13 @@
 .intro__text {
-  border: 1px red solid;
   margin: 0 0 33px 0;
   color: #FFFFFF;
-  width: 690px;
-  height: 208px;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 163%;
+  font-size: 1em;
+  line-height: 1.63;
 }
+@media screen and (max-width: 767px) {
+  .intro__text {
+    margin-bottom: 33px;
+  }
+}
+

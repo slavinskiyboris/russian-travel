@@ -1,2 +1,8 @@
 .place__card {
+  align-self: end;
+}
+@media screen and (max-width: 767px) {
+  .place__card {
+    padding: 0 16px;
+  }
 }

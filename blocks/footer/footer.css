@@ -1,6 +1,20 @@
 .footer {
+  box-sizing:border-box;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
   margin: 92px 48px 24px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  border: 1px red solid;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer {
+    margin: 88px 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    flex-direction: column;
+    margin: 64px 0 0;
+  }
 }
