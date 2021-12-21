@@ -8,7 +8,7 @@
   line-height: 1.1;
   z-index: 1;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .cover__title {
     max-width: 288px;
     margin-bottom: 16px;
