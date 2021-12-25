@@ -3,7 +3,7 @@
   max-width: 1280px;
   box-sizing: border-box;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .lead {
     padding: 0 48px;
   }
@@ -11,7 +11,12 @@
 
 @media screen and (max-width: 1024px) {
   .lead {
-    padding: 0;
+    padding: 0 24px;
   }
 }
 
+@media screen and (max-width: 768px) {
+  .lead {
+    padding: 0;
+  }
+}

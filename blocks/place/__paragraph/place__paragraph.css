@@ -2,7 +2,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 1.2em;
-  line-height: 1.4;
+  line-height: 1.6;
   color: #FFFFFF;
   margin-top: 0;
   margin-bottom: 26px;
@@ -21,10 +21,18 @@
   .place__paragraph {
     font-size: 1em;
   }
+  .place__paragraph:not(:last-child) {
+    margin-bottom: 25px;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .place__paragraph {
     padding: 0 16px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    padding: 0;
   }
 }
