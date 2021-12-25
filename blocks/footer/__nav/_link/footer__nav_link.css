@@ -7,7 +7,8 @@
   transition: opacity .5s;
 }
 .footer__nav_link:hover {
-  opacity: .8;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
 }
 @media screen and (max-width: 767px) {
   .footer__nav_link {

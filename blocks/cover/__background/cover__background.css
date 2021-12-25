@@ -20,8 +20,8 @@
 
 .cover__link:hover .cover__background::before {
   opacity: 0.8;
+  transition: opacity 0.3s ease;
 }
-
 @media screen and (max-width: 1279px) {
   .cover__background {
     min-height: 640px;
