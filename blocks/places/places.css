@@ -4,21 +4,23 @@
   margin-bottom: 92px;
   max-width: 1280px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .places {
     margin-left: 48px;
     margin-right: 48px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .places {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 24px;
+    margin-right: 24px;
     margin-bottom: 90px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 319px) {
   .places {
+    margin-left: 0;
+    margin-right: 0;
     margin-bottom: 66px;
   }
 }
