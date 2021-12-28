@@ -6,7 +6,8 @@
   letter-spacing: 0.2em;
   color: #AAAAAA;
   margin-bottom: 12px;
-  text-transform: uppercase
+  text-transform: uppercase;
+  margin-top:0;
 }
 @media screen and (max-width: 767px) {
   .place__url-heading {

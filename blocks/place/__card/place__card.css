@@ -1,5 +1,5 @@
 .place__card {
-  align-self: start;
+  align-self: end;
 }
 @media screen and (max-width: 767px) {
   .place__card {
